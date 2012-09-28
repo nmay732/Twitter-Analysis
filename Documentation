@@ -1,0 +1,21 @@
+stream.py is the main class which contains filters and stuff
+stream uses the included tweepy package.
+tweepy needs to be installed TODO: include instalation files
+
+To get OAuth keys:
+-to go https://dev.twitter.com/apps
+-login and register TODO: how do I pass this off to someone else?
+-Use keys from there in the main file
+
+Tweet is used to convert tweets to python dictionaries
+-this process turns ' into ^ because ' is a quote
+
+Listener DOES STUFF with the tweets once they appear
+-I just make a tweet object and send it somewhere
+
+Filter only allows 400 terms to filter on
+if you want ALL tweets contact DataSift and Gnip for $$$
+Sample gives you 1%
+
+USEFUL EXAMPLE:
+http://www.laurentluce.com/
